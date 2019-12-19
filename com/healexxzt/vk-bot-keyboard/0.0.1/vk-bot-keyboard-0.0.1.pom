@@ -47,7 +47,11 @@
             <artifactId>doxia-site-renderer</artifactId>
             <version>1.9.1</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>1.25</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -93,6 +97,7 @@
                 <artifactId>maven-project-info-reports-plugin</artifactId>
                 <version>3.0.0</version>
             </plugin>
+
         </plugins>
     </build>
 
